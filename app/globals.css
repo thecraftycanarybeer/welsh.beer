@@ -1,0 +1,507 @@
+:root {
+  --bg: #1c2420;
+  --bg-raised: #232b26;
+  --paper: #f2ead9;
+  --paper-line: #ddd0b2;
+  --ink: #201b16;
+  --ink-soft: #56503f;
+  --cream-ink: #f2ead9;
+  --cream-ink-soft: #b9c2b6;
+  --hop: #6d8c58;
+  --hop-dark: #4b6a3f;
+  --amber: #d68f34;
+  --dragon: #a3402e;
+  --line-dark: rgba(242, 234, 217, 0.14);
+  --radius: 3px;
+  --serif: "Zilla Slab", Georgia, "Times New Roman", serif;
+  --sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--cream-ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--line-dark);
+  padding: 20px 0;
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.brand span {
+  color: var(--amber);
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+  font-size: 0.95rem;
+}
+
+.nav a {
+  color: var(--cream-ink-soft);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+}
+
+.nav a:hover {
+  color: var(--cream-ink);
+  border-bottom-color: var(--amber);
+}
+
+.hero-photo {
+  position: relative;
+  min-height: 640px;
+  display: flex;
+  align-items: flex-end;
+  background-color: var(--bg-raised);
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(20, 26, 22, 0.35) 0%,
+    rgba(20, 26, 22, 0.55) 55%,
+    rgba(20, 26, 22, 0.92) 100%
+  );
+}
+
+.hero-photo .wrap {
+  position: relative;
+  z-index: 1;
+  padding-top: 64px;
+  padding-bottom: 56px;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  max-width: 14ch;
+  color: var(--cream-ink);
+}
+
+.hero .lede {
+  margin-top: 18px;
+  max-width: 54ch;
+  color: var(--cream-ink-soft);
+  font-size: 1.1rem;
+}
+
+.hero-search {
+  margin-top: 36px;
+  max-width: 480px;
+}
+
+.stats-row {
+  margin-top: 56px;
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.scenery-strip {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+  height: 380px;
+  background: var(--line-dark);
+}
+
+.scenery-tile {
+  background-color: var(--bg-raised);
+  background-size: cover;
+  background-position: center;
+}
+
+.scenery-tile:first-child {
+  grid-row: 1 / 3;
+}
+
+.scenery-caption {
+  padding: 14px 0 0;
+  color: var(--cream-ink-soft);
+  font-size: 0.85rem;
+}
+
+.stat .num {
+  font-family: var(--serif);
+  font-size: 2.1rem;
+  color: var(--amber);
+}
+
+.stat .label {
+  color: var(--cream-ink-soft);
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+
+.region-strip {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.region-pill {
+  border: 1px solid var(--line-dark);
+  border-radius: var(--radius);
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  color: var(--cream-ink-soft);
+}
+
+.region-pill:hover,
+.region-pill.active {
+  border-color: var(--amber);
+  color: var(--cream-ink);
+}
+
+section.block {
+  padding: 56px 0;
+}
+
+section.block h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.section-lede {
+  color: var(--cream-ink-soft);
+  max-width: 60ch;
+  margin-bottom: 32px;
+}
+
+.brewery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line-dark);
+  border: 1px solid var(--line-dark);
+}
+
+.brewery-card {
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.brewery-card .card-body {
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.brewery-card .card-image {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--bg-raised);
+}
+
+.brewery-card .tag {
+  font-size: 0.78rem;
+  color: var(--hop);
+  text-transform: none;
+}
+
+.brewery-card h3 {
+  font-size: 1.2rem;
+}
+
+.brewery-card .town {
+  color: var(--cream-ink-soft);
+  font-size: 0.9rem;
+}
+
+.brewery-card .desc {
+  color: var(--cream-ink-soft);
+  font-size: 0.92rem;
+  flex-grow: 1;
+}
+
+.brewery-card .meta {
+  font-size: 0.82rem;
+  color: var(--amber);
+}
+
+.brewery-card:hover {
+  background: var(--bg-raised);
+}
+
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-dark);
+  background: var(--bg-raised);
+  color: var(--cream-ink);
+  font-size: 1rem;
+}
+
+.input::placeholder {
+  color: var(--cream-ink-soft);
+}
+
+.filter-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.select {
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line-dark);
+  background: var(--bg-raised);
+  color: var(--cream-ink);
+  font-size: 0.92rem;
+}
+
+.beer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.beer-table th {
+  text-align: left;
+  font-size: 0.8rem;
+  color: var(--cream-ink-soft);
+  font-weight: 500;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.beer-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--line-dark);
+  font-size: 0.95rem;
+  vertical-align: top;
+}
+
+.beer-table tr:hover td {
+  background: var(--bg-raised);
+}
+
+.beer-name {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.02rem;
+}
+
+.beer-name a {
+  color: var(--cream-ink);
+}
+
+.beer-name a:hover {
+  color: var(--amber);
+}
+
+.muted {
+  color: var(--cream-ink-soft);
+}
+
+.abv {
+  color: var(--amber);
+  font-variant-numeric: tabular-nums;
+}
+
+.detail-banner {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--bg-raised);
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.detail-hero {
+  padding: 56px 0 40px;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.eyebrow-link {
+  color: var(--hop);
+  font-size: 0.9rem;
+}
+
+.detail-hero h1 {
+  margin-top: 12px;
+  font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+.detail-meta {
+  margin-top: 14px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: var(--cream-ink-soft);
+  font-size: 0.95rem;
+}
+
+.detail-desc {
+  margin-top: 24px;
+  max-width: 62ch;
+  font-size: 1.05rem;
+  color: var(--cream-ink-soft);
+}
+
+.beer-list-simple {
+  margin-top: 8px;
+}
+
+.beer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.beer-row:first-child {
+  border-top: 1px solid var(--line-dark);
+}
+
+.beer-row .left {
+  max-width: 60ch;
+}
+
+.beer-row .right {
+  white-space: nowrap;
+  color: var(--amber);
+  font-size: 0.95rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line-dark);
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wb-badge {
+  border: 1px solid var(--line-dark);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  font-size: 0.85rem;
+  color: var(--cream-ink-soft);
+}
+
+.wb-badge span {
+  color: var(--amber);
+}
+
+.footer-note {
+  color: var(--cream-ink-soft);
+  font-size: 0.85rem;
+  max-width: 44ch;
+}
+
+@media (max-width: 860px) {
+  .brewery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .brewery-grid {
+    grid-template-columns: 1fr;
+  }
+  .nav {
+    gap: 16px;
+  }
+  .beer-table thead {
+    display: none;
+  }
+  .beer-table tr {
+    display: block;
+    padding: 12px 0;
+  }
+  .beer-table td {
+    display: block;
+    border: none;
+    padding: 2px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}

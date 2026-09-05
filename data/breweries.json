@@ -1,0 +1,468 @@
+[
+  {
+    "slug": "tiny-rebel",
+    "name": "Tiny Rebel",
+    "town": "Newport",
+    "region": "South East Wales",
+    "founded": 2012,
+    "website": "https://tinyrebel.co.uk",
+    "description": "Wales' biggest independent brewery, grown from a single taproom in Newport into one of the UK's best known craft names. Tiny Rebel made its name with bold, colourful cans and a Welsh red ale that took the top prize at the Great British Beer Festival.",
+    "beers": [
+      {
+        "slug": "cwtch",
+        "name": "Cwtch",
+        "style": "Welsh Red Ale",
+        "abv": "4.6%",
+        "description": "A malt forward red ale with a citrus hop finish. Named Champion Beer of Britain in 2015, it remains the brewery's signature pour."
+      },
+      {
+        "slug": "tropical",
+        "name": "Tropical",
+        "style": "Pale Ale",
+        "abv": "4.9%",
+        "description": "A juicy, fruit driven pale ale built around punchy modern hop varieties, and one of the bigger selling craft cans in the UK."
+      },
+      {
+        "slug": "dirty-stop-out",
+        "name": "Dirty Stop Out",
+        "style": "Milk Stout",
+        "abv": "4.5%",
+        "description": "A smooth, coffee accented milk stout with a rounded, dessert like sweetness."
+      }
+    ],
+    "image": "/images/breweries/tiny-rebel.jpg"
+  },
+  {
+    "slug": "brains",
+    "name": "Brains",
+    "town": "Cardiff",
+    "region": "South East Wales",
+    "founded": 1882,
+    "website": "https://brains.wales",
+    "description": "Cardiff's oldest brewing name, founded in the Victorian era and still tied closely to the city's pubs and rugby culture. Brains produces a traditional core range alongside collaborations with other Welsh breweries.",
+    "beers": [
+      {
+        "slug": "sa-best",
+        "name": "SA Best",
+        "style": "Best Bitter",
+        "abv": "4.2%",
+        "description": "The brewery's long running best bitter, malty and balanced, long associated with pubs across South Wales."
+      },
+      {
+        "slug": "rev-james",
+        "name": "Rev James",
+        "style": "Amber Ale",
+        "abv": "4.5%",
+        "description": "A smooth amber ale with a gentle caramel sweetness, one of the most widely poured cask ales in Wales."
+      }
+    ],
+    "image": "/images/breweries/brains.jpg"
+  },
+  {
+    "slug": "crafty-devil",
+    "name": "Crafty Devil Brewing Co",
+    "town": "Cardiff",
+    "region": "South East Wales",
+    "founded": 2014,
+    "website": "https://www.craftydevilbrewing.co.uk",
+    "description": "Started in a garden shed in west Cardiff by two friends, Crafty Devil has grown into a Canton based brewery with its own taprooms in Cardiff and Penarth. The focus is on approachable, hop led beers made in small batches.",
+    "beers": [
+      {
+        "slug": "mikey-rayer",
+        "name": "Mikey Rayer",
+        "style": "Session Pale Ale",
+        "abv": "4.0%",
+        "description": "The brewery's everyday pale ale, crisp and easy drinking, built as an all day session beer."
+      },
+      {
+        "slug": "cardiff-lager",
+        "name": "Cardiff",
+        "style": "Lager",
+        "abv": "4.8%",
+        "description": "A clean, crisp lager brewed as the brewery's take on a classic session lager, popular in the taprooms."
+      }
+    ],
+    "image": "/images/breweries/crafty-devil.jpg"
+  },
+  {
+    "slug": "dark-element",
+    "name": "Dark Element Brew Co",
+    "town": "Caerphilly",
+    "region": "South East Wales",
+    "founded": 2023,
+    "website": "https://darkelementbrewing.co.uk",
+    "description": "A newer arrival built on a decade of commercial brewing experience behind the scenes, Dark Element has quickly become one of the highest rated breweries in Wales by focusing tightly on hazy, hop forward pales and IPAs.",
+    "beers": [
+      {
+        "slug": "headlights",
+        "name": "Headlights",
+        "style": "Pale Ale",
+        "abv": "4.5%",
+        "description": "A hazy pale ale showcasing modern hop varieties for a soft, juicy character."
+      },
+      {
+        "slug": "urban-pale",
+        "name": "Urban Pale",
+        "style": "Pale Ale",
+        "abv": "4.2%",
+        "description": "A lighter, everyday hazy pale designed for drinkability without losing hop character."
+      },
+      {
+        "slug": "berserker",
+        "name": "Berserker",
+        "style": "IPA",
+        "abv": "6.2%",
+        "description": "A bolder, higher strength IPA built for drinkers wanting more intensity from the hop bill."
+      }
+    ],
+    "image": "/images/breweries/dark-element.jpg"
+  },
+  {
+    "slug": "untapped-brewing",
+    "name": "Untapped Brewing Company",
+    "town": "Raglan",
+    "region": "South East Wales",
+    "founded": 2009,
+    "website": "https://untappedbrewing.co.uk",
+    "description": "Founded by two friends who began by borrowing other breweries' equipment, Untapped now brews from its own site near Raglan Castle in Monmouthshire, producing both traditional cask ales and more modern hoppy styles.",
+    "beers": [
+      {
+        "slug": "whoosh",
+        "name": "Whoosh",
+        "style": "Extra Pale Ale",
+        "abv": "4.0%",
+        "description": "A hop forward, pale coloured session ale built for a bright, punchy aroma."
+      },
+      {
+        "slug": "sundown",
+        "name": "Sundown",
+        "style": "Golden Ale",
+        "abv": "3.8%",
+        "description": "A traditional golden ale in the classic cask mould, light and refreshing."
+      }
+    ],
+    "image": "/images/breweries/untapped-brewing.jpg"
+  },
+  {
+    "slug": "felinfoel",
+    "name": "Felinfoel Brewery",
+    "town": "Llanelli",
+    "region": "South West Wales",
+    "founded": 1878,
+    "website": "https://felinfoel-brewery.com",
+    "description": "The oldest working brewery in Wales, founded in the tinplate town of Llanelli. In 1935 Felinfoel became one of the first breweries in the world to sell beer in cans, and its flagship ale is still widely regarded as Wales' national beer.",
+    "beers": [
+      {
+        "slug": "double-dragon",
+        "name": "Double Dragon",
+        "style": "Premium Welsh Ale",
+        "abv": "4.2%",
+        "description": "A rich, malt driven premium ale that the brewery has produced for generations, often described as the national ale of Wales."
+      }
+    ],
+    "image": "/images/breweries/felinfoel.jpg"
+  },
+  {
+    "slug": "tomos-watkin",
+    "name": "Tomos Watkin",
+    "town": "Swansea",
+    "region": "South West Wales",
+    "founded": 1995,
+    "website": "https://www.tomoswatkin.com",
+    "description": "A Swansea brewery reviving old Welsh brewing names and recipes, Tomos Watkin produces a broad range from light blonde ales to darker traditional styles, sold widely across South Wales pubs and bottle shops.",
+    "beers": [
+      {
+        "slug": "blodwen",
+        "name": "Blodwen",
+        "style": "Blonde Ale",
+        "abv": "4.2%",
+        "description": "A light, crisp blonde ale with a delicate hop character, one of the brewery's best known bottled beers."
+      },
+      {
+        "slug": "osb",
+        "name": "OSB",
+        "style": "Best Bitter",
+        "abv": "4.0%",
+        "description": "A traditional Welsh best bitter with a full malt body and a gentle bitterness."
+      }
+    ],
+    "image": "/images/breweries/tomos-watkin.jpg"
+  },
+  {
+    "slug": "boss-brewing",
+    "name": "Boss Brewing",
+    "town": "Swansea",
+    "region": "South West Wales",
+    "founded": 2014,
+    "website": "https://bossbrewing.co.uk",
+    "description": "Founded by husband and wife team Sarah and Roy Allkin, Boss Brewing built its reputation on stouts and dark beers, taking the Champion Beer of Wales title for one of its stouts, alongside a wider modern core range.",
+    "beers": [
+      {
+        "slug": "boss-stout",
+        "name": "Boss Milk Stout",
+        "style": "Milk Stout",
+        "abv": "4.7%",
+        "description": "A rich, smooth milk stout that won the brewery its Champion Beer of Wales title."
+      },
+      {
+        "slug": "boss-ipa",
+        "name": "Boss IPA",
+        "style": "IPA",
+        "abv": "5.5%",
+        "description": "A robust, citrus forward IPA sitting alongside the brewery's stout range."
+      }
+    ],
+    "image": "/images/breweries/boss-brewing.jpg"
+  },
+  {
+    "slug": "mumbles-brewery",
+    "name": "Mumbles Brewery",
+    "town": "Swansea",
+    "region": "South West Wales",
+    "founded": 2011,
+    "website": "https://mumblesbrewery.co.uk",
+    "description": "Based near Swansea Bay, Mumbles Brewery makes a range of cask and bottled ales aimed squarely at the local pub trade, with an emphasis on approachable, sessionable strengths.",
+    "beers": [
+      {
+        "slug": "mumbles-original",
+        "name": "Mumbles Original",
+        "style": "Bitter",
+        "abv": "3.8%",
+        "description": "A light, sessionable bitter designed as an everyday cask pour."
+      }
+    ],
+    "image": "/images/breweries/mumbles-brewery.jpg"
+  },
+  {
+    "slug": "gower-brewery",
+    "name": "Gower Brewery",
+    "town": "Gower",
+    "region": "South West Wales",
+    "founded": 2011,
+    "website": "https://gowerbrewery.co.uk",
+    "description": "Set on the Gower peninsula, this brewery runs a traditional cask range alongside a separate, more experimental line called Gower Brews. Tours through the brewery finish with tastings in its own tap room.",
+    "beers": [
+      {
+        "slug": "gower-gold",
+        "name": "Gower Gold",
+        "style": "Golden Ale",
+        "abv": "4.0%",
+        "description": "A light, golden session ale and one of the brewery's most established cask beers."
+      },
+      {
+        "slug": "gower-power",
+        "name": "Gower Power",
+        "style": "Strong Ale",
+        "abv": "4.9%",
+        "description": "A fuller bodied, stronger ale from the core cask range."
+      }
+    ],
+    "image": "/images/breweries/gower-brewery.jpg"
+  },
+  {
+    "slug": "harbwr-brewery",
+    "name": "Harbwr Brewery",
+    "town": "Tenby",
+    "region": "South West Wales",
+    "founded": 2018,
+    "website": "https://harbwrbrewery.com",
+    "description": "Housed in a converted warehouse above Tenby's harbour, Harbwr brews a modern, easy drinking range and runs a family friendly taproom that has become a regular stop for visitors to the town.",
+    "beers": [
+      {
+        "slug": "harbwr-pale",
+        "name": "Harbwr Pale",
+        "style": "Pale Ale",
+        "abv": "4.3%",
+        "description": "A balanced, approachable pale ale built as the brewery's flagship taproom pour."
+      }
+    ],
+    "image": "/images/breweries/harbwr-brewery.jpg"
+  },
+  {
+    "slug": "bluestone-brewing",
+    "name": "Bluestone Brewing Co",
+    "town": "Pembrokeshire",
+    "region": "South West Wales",
+    "founded": 2011,
+    "website": "https://bluestonebrewing.co.uk",
+    "description": "Brewed on a farm site in the Pembrokeshire hills, Bluestone leans on its rural setting for both its branding and its water source, producing a traditional range of cask and bottled ales.",
+    "beers": [
+      {
+        "slug": "bluestone-bitter",
+        "name": "Bluestone Bitter",
+        "style": "Bitter",
+        "abv": "3.9%",
+        "description": "A traditional, malt led bitter with a light hop finish."
+      }
+    ],
+    "image": "/images/breweries/bluestone-brewing.jpg"
+  },
+  {
+    "slug": "purple-moose",
+    "name": "Purple Moose Brewery",
+    "town": "Porthmadog",
+    "region": "North Wales",
+    "founded": 2005,
+    "website": "https://www.purplemoose.co.uk",
+    "description": "One of the most decorated breweries in Wales, Purple Moose runs its taproom from The Australia pub on Porthmadog High Street and also operates the Albion Ale House in Conwy in partnership with other North Wales breweries.",
+    "beers": [
+      {
+        "slug": "snowdonia-ale",
+        "name": "Snowdonia Ale",
+        "style": "Bitter",
+        "abv": "3.6%",
+        "description": "A light, gently hopped session bitter named for the mountains above the brewery."
+      },
+      {
+        "slug": "dark-side-of-the-moose",
+        "name": "Dark Side of the Moose",
+        "style": "Winter Ale",
+        "abv": "5.5%",
+        "description": "A dark, warming winter ale that has placed highly in national Champion Winter Beer awards."
+      },
+      {
+        "slug": "elderflower-ale",
+        "name": "Elderflower Ale",
+        "style": "Speciality Ale",
+        "abv": "4.0%",
+        "description": "A pale ale brewed with elderflower for a delicate floral note, twice named Champion Speciality Beer of Wales."
+      }
+    ],
+    "image": "/images/breweries/purple-moose.jpg"
+  },
+  {
+    "slug": "conwy-brewery",
+    "name": "Conwy Brewery",
+    "town": "Conwy",
+    "region": "North Wales",
+    "founded": 2003,
+    "website": "https://conwybrewery.co.uk",
+    "description": "Brewing within sight of Conwy Castle, this brewery produces a broad cask and bottled range with a strong local following, distributed through pubs across North Wales.",
+    "beers": [
+      {
+        "slug": "conwy-castle",
+        "name": "Castle Bitter",
+        "style": "Bitter",
+        "abv": "3.7%",
+        "description": "A light, traditional bitter and one of the brewery's longest standing beers."
+      },
+      {
+        "slug": "conwy-honey-fayre",
+        "name": "Honey Fayre",
+        "style": "Honey Ale",
+        "abv": "4.2%",
+        "description": "A golden ale brewed with honey for a smooth, rounded sweetness."
+      }
+    ],
+    "image": "/images/breweries/conwy-brewery.jpg"
+  },
+  {
+    "slug": "wild-horse-brewing",
+    "name": "Wild Horse Brewing Co",
+    "town": "Llandudno",
+    "region": "North Wales",
+    "founded": 2015,
+    "website": "https://wildhorsebrewing.co.uk",
+    "description": "A seaside brewery in Llandudno that has built a strong reputation for consistency, with a modern core range that regularly ranks among the highest rated in Wales on independent beer rating platforms.",
+    "beers": [
+      {
+        "slug": "wild-horse-pale",
+        "name": "Wild Horse Pale",
+        "style": "Pale Ale",
+        "abv": "4.4%",
+        "description": "A well balanced modern pale ale and the brewery's most widely available beer."
+      }
+    ],
+    "image": "/images/breweries/wild-horse-brewing.jpg"
+  },
+  {
+    "slug": "bragdy-nant",
+    "name": "Bragdy Nant",
+    "town": "Llanrwst",
+    "region": "North Wales",
+    "founded": 2007,
+    "website": "https://bragdynant.co.uk",
+    "description": "A small brewery in the Conwy valley producing Welsh named ales, with a core range spanning porters, bitters and golden ales alongside seasonal specials.",
+    "beers": [
+      {
+        "slug": "mwnci-nel",
+        "name": "Mwnci Nel",
+        "style": "Porter",
+        "abv": "4.5%",
+        "description": "A dark, roasty porter and one of the brewery's core cask beers."
+      },
+      {
+        "slug": "cwrw-coryn",
+        "name": "Cwrw Coryn",
+        "style": "Bitter",
+        "abv": "3.8%",
+        "description": "A traditional bitter with a light, easy drinking character."
+      },
+      {
+        "slug": "chwaden-aur",
+        "name": "Chwaden Aur",
+        "style": "Golden Ale",
+        "abv": "4.0%",
+        "description": "A pale golden ale with a soft, gentle hop presence."
+      }
+    ],
+    "image": "/images/breweries/bragdy-nant.jpg"
+  },
+  {
+    "slug": "cwrw-llyn",
+    "name": "Cwrw Llyn",
+    "town": "Llyn Peninsula",
+    "region": "North Wales",
+    "founded": 2010,
+    "website": "https://cwrwllyn.cymru",
+    "description": "A Welsh language brewery on the Llyn Peninsula producing a small, traditional range sold mainly through pubs and shops across Gwynedd.",
+    "beers": [
+      {
+        "slug": "seithenyn",
+        "name": "Seithenyn",
+        "style": "Golden Ale",
+        "abv": "4.0%",
+        "description": "A light golden ale named after a figure from Welsh legend, brewed as the brewery's core session beer."
+      }
+    ],
+    "image": "/images/breweries/cwrw-llyn.jpg"
+  },
+  {
+    "slug": "bragdy-cybi",
+    "name": "Bragdy Cybi",
+    "town": "Holyhead",
+    "region": "North Wales",
+    "founded": 2013,
+    "website": "https://bragdycybi.cymru",
+    "description": "A nano brewery based in Holyhead on Anglesey, Bragdy Cybi punches well above its size, producing a rotating range of beers that consistently rank among the best reviewed in Wales.",
+    "beers": [
+      {
+        "slug": "cybi-pale",
+        "name": "Cybi Pale",
+        "style": "Pale Ale",
+        "abv": "4.1%",
+        "description": "A clean, approachable pale ale and one of the brewery's regular releases."
+      }
+    ],
+    "image": "/images/breweries/bragdy-cybi.jpg"
+  },
+  {
+    "slug": "wilderness",
+    "name": "Wilderness",
+    "town": "Mid Wales",
+    "region": "Mid Wales",
+    "founded": 2016,
+    "website": "https://wildernessbrewery.co.uk",
+    "description": "Founded by James Godman, Wilderness stands apart from most Welsh breweries by focusing on mixed fermentation and barrel aged beers rather than hop forward styles, using local fruit and a variety of house cultures.",
+    "beers": [
+      {
+        "slug": "fragile-self-confidence",
+        "name": "Fragile Self Confidence",
+        "style": "Barrel Aged Sour",
+        "abv": "5.5%",
+        "description": "A rioja barrel aged pale ale with a complex, delicately sour character built through mixed fermentation."
+      }
+    ],
+    "image": "/images/breweries/wilderness.jpg"
+  }
+]

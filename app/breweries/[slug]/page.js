@@ -50,6 +50,12 @@ export default function BreweryPage({ params }) {
           <div className="beer-list-simple">
             {brewery.beers.map((beer) => (
               <div className="beer-row" key={beer.slug}>
+                {beer.image && (
+                  <div
+                    className="beer-thumb"
+                    style={{ backgroundImage: `url(${beer.image})` }}
+                  />
+                )}
                 <div className="left">
                   <div className="beer-name">
                     <Link href={`/breweries/${brewery.slug}/${beer.slug}`}>
@@ -59,6 +65,16 @@ export default function BreweryPage({ params }) {
                   <p className="muted" style={{ marginTop: 6 }}>
                     {beer.description}
                   </p>
+                  {beer.buyUrl && (
+                    <a
+                      href={beer.buyUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ display: "inline-block", marginTop: 8 }}
+                    >
+                      Buy this beer &rarr;
+                    </a>
+                  )}
                 </div>
                 <div className="right">
                   {beer.style} &middot; {beer.abv}

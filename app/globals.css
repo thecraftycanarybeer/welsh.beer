@@ -419,6 +419,18 @@ section.block h2 {
   border-bottom: 1px solid var(--line-dark);
 }
 
+.beer-thumb {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+  background-color: var(--bg-raised);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--line-dark);
+}
+
 .beer-row:first-child {
   border-top: 1px solid var(--line-dark);
 }

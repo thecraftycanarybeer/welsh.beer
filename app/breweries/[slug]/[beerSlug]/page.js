@@ -23,19 +23,38 @@ export default function BeerPage({ params }) {
   if (!beer) notFound();
 
   return (
-    <section className="detail-hero">
-      <div className="wrap">
-        <Link href={`/breweries/${beer.brewery.slug}`} className="eyebrow-link">
-          &larr; {beer.brewery.name}
-        </Link>
-        <h1>{beer.name}</h1>
-        <div className="detail-meta">
-          <span className="abv">{beer.abv}</span>
-          <span>{beer.style}</span>
-          <span>{beer.brewery.town}, {beer.brewery.region}</span>
+    <>
+      {beer.image && (
+        <div
+          className="detail-banner"
+          style={{
+            backgroundImage: `url(${beer.image})`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat"
+          }}
+          role="img"
+          aria-label={beer.name}
+        />
+      )}
+      <section className="detail-hero">
+        <div className="wrap">
+          <Link href={`/breweries/${beer.brewery.slug}`} className="eyebrow-link">
+            &larr; {beer.brewery.name}
+          </Link>
+          <h1>{beer.name}</h1>
+          <div className="detail-meta">
+            <span className="abv">{beer.abv}</span>
+            <span>{beer.style}</span>
+            <span>{beer.brewery.town}, {beer.brewery.region}</span>
+            {beer.buyUrl && (
+              <a href={beer.buyUrl} target="_blank" rel="noopener noreferrer">
+                Buy this beer &rarr;
+              </a>
+            )}
+          </div>
+          <p className="detail-desc">{beer.description}</p>
         </div>
-        <p className="detail-desc">{beer.description}</p>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

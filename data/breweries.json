@@ -464,5 +464,71 @@
       }
     ],
     "image": "/images/breweries/wilderness.jpg"
+  },
+  {
+    "slug": "crafty-canary",
+    "name": "Crafty Canary",
+    "town": "Cwmavon",
+    "region": "South West Wales",
+    "founded": 2026,
+    "website": "https://craftycanary.beer",
+    "description": "One of the newest breweries in Wales, based in the Afan Valley near Port Talbot. Crafty Canary brews a compact house range alongside running a wider online shop of other Welsh and imported beers, ciders and spirits. Each of its own beers is named after a mountain bike trail through nearby Afan Forest Park.",
+    "beers": [
+      {
+        "slug": "skyline-lager",
+        "name": "Skyline Lager",
+        "style": "Lager",
+        "abv": "5.0%",
+        "description": "A pale, crisp European-style lager and the strongest beer in the core range, named after the exposed ridge line stretch of the Blade trail. Clean and well balanced, built to be served properly cold.",
+        "image": "/images/beers/skyline-lager.jpg",
+        "buyUrl": "https://craftycanary.beer/products/crafty-canary-skyline-lager-5-0"
+      },
+      {
+        "slug": "penhydd-stout",
+        "name": "Penhydd Stout",
+        "style": "Stout",
+        "abv": "4.7%",
+        "description": "A roasty, dry stout named after one of the original red-graded mountain bike trails through Afan Forest Park. Dark chocolate and espresso notes lead, with a smooth, creamy body rather than anything sweet.",
+        "image": "/images/beers/penhydd-stout.jpg",
+        "buyUrl": "https://craftycanary.beer/products/crafty-canary-penhydd-stout-4-7"
+      },
+      {
+        "slug": "y-wal-golden-ale",
+        "name": "Y Wal Golden Ale",
+        "style": "Golden Ale",
+        "abv": "4.5%",
+        "description": "A straightforward, well balanced golden ale with a light honeyed malt character and a gentle floral hop finish. Named after the Welsh for \"the wall\", it sits in the middle of the range for both strength and character.",
+        "image": "/images/beers/y-wal-golden-ale.jpg",
+        "buyUrl": "https://craftycanary.beer/products/crafty-canary-y-wal-golden-ale-4-5"
+      },
+      {
+        "slug": "blue-scar",
+        "name": "Blue Scar",
+        "style": "Session Bitter",
+        "abv": "3.4%",
+        "description": "A low strength session bitter with a soft, biscuity malt character and a restrained, earthy hop finish. Built for an easy pint over a long lunch rather than any big flavour statement.",
+        "image": "/images/beers/blue-scar.jpg",
+        "buyUrl": "https://craftycanary.beer/products/crafty-canary-blue-scar-3-4"
+      },
+      {
+        "slug": "blade-ipa",
+        "name": "Blade IPA",
+        "style": "IPA",
+        "abv": "5.3%",
+        "description": "A citrus-forward IPA built around grapefruit and orange hop character, with a firm, dry, bitter finish. The most hop-driven beer in the range, named after the Blade trail through Afan Forest Park.",
+        "image": "/images/beers/blade-ipa.jpg",
+        "buyUrl": "https://craftycanary.beer/products/crafty-canary-blade-ipa-5-3"
+      },
+      {
+        "slug": "whites-ruby",
+        "name": "Whites Ruby",
+        "style": "Ruby Ale",
+        "abv": "5.4%",
+        "description": "A deep, garnet-coloured ruby ale with a rich caramel and toffee malt character and a hint of dried red fruit. The fullest bodied beer in the range, built for colder months and heartier food.",
+        "image": "/images/beers/whites-ruby.jpg",
+        "buyUrl": "https://craftycanary.beer/products/craft-canary-whites-ruby-5-4"
+      }
+    ],
+    "image": "/images/breweries/crafty-canary.jpg"
   }
 ]
